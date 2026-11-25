@@ -10,6 +10,14 @@ public class Formel20
     private int z;
     private int e;
     // Attributes are defined 
+    
+    // jetzt erstellen wir den Konstruktor 
+    public Formel20(){
+        // die Methode wird aufgerufen 
+        berechne(1,3,5);
+        berechne(2,-1,3);
+    }
+    
     // jetzt erstellen wir die erste Methode berechne. 
     public int berechne (int x, int y ){
         z = (x + 3) * (y - 2);        
