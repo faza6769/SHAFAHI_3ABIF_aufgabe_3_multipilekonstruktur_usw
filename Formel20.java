@@ -15,4 +15,10 @@ public class Formel20
         z = (x + 3) * (y - 2);        
         return z;
     }
+    // die zweite Methode mit 3 Parametern wird erstellet
+    public int berechne (int a, int b, int c){
+        e = berechne (b, 5) + berechne(a, c) + berechne(c, b);
+        System.out.println("the value is "+ e +" .");
+        return e;
+    }
 }
